@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #333;
+  font: 400;
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+nav h1 strong {
+  font-family: 'Coiny', cursive;
+}
+
+nav ul li {
+  font-family: 'Roboto', sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav a {
+  margin-right: 100px;
+  text-decoration: none;
+  color: black;
+}
+
+header section h1 {
+  font-weight: 300;
+}
+
+header section h1 strong {
+  font-family: 'Coiny', cursive;
+  font-size: 80px;
+}
+
+header section h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  background-color: #FCEE21;
+  width: fit-content;
+  margin-bottom: 65px;
+}
+
+#encolumna .encolumna {
+  display: flex;
+  justify-content: space-around
+}
+
+#encolumna .foto {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#encolumna .texto-header {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+header {
+  font-family: 'Roboto', sans-serif;
+}
+
+main div section h3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #FCEE21;
+  width: fit-content;
+  margin-top: 80px;
+}
+
+main #servicios .foto-servicios img {
+  width: 60%;
+  margin-top: 150px;
+
+}
+
+main #servicios .texto2 {
+  margin-top: 150px;
+  height: 80px;
+}
+
+
+main #servicios .texto2 h4 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 40px;
+}
+
+main #servicios .texto2 span li {
+  font-weight: 900;
+  background-color: #FCEE21;
+  width: fit-content;
+
+}
+
+
+main div {
+  display: flex;
+  justify-content: space-between;
+}
+
+main section div h3 p {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#contacto .contacto {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#contacto div .formulario form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#contacto .contacto .texto-contacto, 
+#contacto .contacto .formulario {
+  width: 100%;
+}
+
+#contacto .contacto .texto-contacto {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#contacto .contacto h2 {
+  background-color: black;
+  color: white;
+  width: auto;
+  padding: 0;
+  width: fit-content;
+}
+
+#contacto .contacto h4 {
+  background-color: #FCEE21;
+  width: fit-content;
+}
+
+#contacto h2 {
+  margin-top: 150px;
+}
+
+#contacto .contacto .formulario {
+  justify-content: center;
+}
+
+#contacto div .formulario form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+.formulario button {
+  height: 100%;
+  margin-top: 20px;
+}
+
+
+form span {
+  color: red;
+  padding-right: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  height: 40px;
+  
+}
+
+input,
+textarea {
+  width: 500px;
+}
+
+button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  background-color: black;
+  color: white;
+  width: 250px;
+}
+
+form input, label {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+main section {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 100px;
+}
+
+
+img {
+  width: 60%;
+}
+
+aside nav .gris {
+  font-weight: 600;
+  color: gray;
+}
+
+footer h1 a {
+  font-family: 'Coiny', cursive;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+footer nav {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FCEE21;
+  padding: 50px;
+}
